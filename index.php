@@ -34,10 +34,10 @@
 										<div class="col-md-12 col-lg-7"></div>
 										<div class="col-md-12 col-lg-5 pbmit-right-col">
 											<div class="pbmit-slider-content">
-												<h2 class="pbmit-title transform-left transform-delay-3">Beautiful Living <br> Solutions.</h2>
-												<p class="pbmit-desc transform-left transform-delay-4">Give your home a new look with these interior <br> design ideas curated for you</p>
+												<h2 class="pbmit-title transform-left transform-delay-3">Restaurant Interior Design <br> in Bangladesh.</h2>
+												<p class="pbmit-desc transform-left transform-delay-4">Designing hospitable environments for your customers.</p>
 												<div class="pbmit-button-wrap transform-left transform-delay-5">
-													<a class="pbmit-btn pbmit-btn-global" href="contact-us.html">
+													<a class="pbmit-btn pbmit-btn-global" href="Contact-Us">
 														<span class="pbmit-button-content-wrapper">
 															<span class="pbmit-button-text">Book Consult</span>
 														</span>
@@ -58,10 +58,10 @@
 										<div class="col-md-12 col-lg-7"></div>
 										<div class="col-md-12 col-lg-5 pbmit-right-col">
 											<div class="pbmit-slider-content">
-												<h2 class="pbmit-title transform-left transform-delay-3">Beautiful Useful <br> Solutions.</h2>
-												<p class="pbmit-desc transform-left transform-delay-4">Xinterio is a design firm that brings dimension <br> to the design create for you</p>
+												<h2 class="pbmit-title transform-left transform-delay-3">Home Interior Design <br> In Bangladesh.</h2>
+												<p class="pbmit-desc transform-left transform-delay-4">Creating beautiful and comfortable homes for you to live in.</p>
 												<div class="pbmit-button-wrap transform-left transform-delay-5">
-													<a class="pbmit-btn pbmit-btn-global" href="contact-us.html">
+													<a class="pbmit-btn pbmit-btn-global" href="Contact-Us">
 														<span class="pbmit-button-content-wrapper">
 															<span class="pbmit-button-text">Book Consult</span>
 														</span>
@@ -230,9 +230,17 @@
 							<div class="about-three-left-area">
 								<div class="pbmit-heading-subheading animation-style2">
 									<h4 class="pbmit-subtitle">What we do</h4>
-									<h2 class="pbmit-title">Start your healthy life today with us</h2>
+									<h2 class="pbmit-title">THE IMAGINE INTERIORS ADVANTAGE</h2>
 									<div class="pbmit-heading-desc">
-										There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even.
+                                        Are you looking to create an awesome space to live/work in?
+
+                                        Do you look forward to a hassle-free interior design process?
+
+                                        Would you like your interior design project to be long lasting?
+
+                                        Then you’ve come to the right place!
+
+                                        Our portfolio in both residential interior design and commercial interior design speaks for itself.
 									</div>
 								</div>
 								<div class="row">
@@ -244,7 +252,7 @@
 												</div>
 												<div class="pbmit-ihbox-contents">
 													<h2 class="pbmit-element-title">
-														Branches Across The World 25+
+                                                        We make interior design completely hassle-free.
 													</h2>
 												</div>
 											</div>
@@ -258,14 +266,56 @@
 												</div>
 												<div class="pbmit-ihbox-contents">
 													<h2 class="pbmit-element-title">
-														2.9K+ Parcel Delivered By Team
+                                                        We are fully transparent about costs.
 													</h2>
 												</div>
 											</div>
 										</div>
 									</article>
+                                    <article class="pbmit-miconheading-style-1 col-md-12">
+                                        <div class="pbmit-ihbox-style-1">
+                                            <div class="pbmit-ihbox-headingicon d-flex align-items-center">
+                                                <div class="pbmit-ihbox-icon">
+                                                    <div class="pbmit-ihbox-icon-wrapper pbmit-ihbox-icon-type-text">03.</div>
+                                                </div>
+                                                <div class="pbmit-ihbox-contents">
+                                                    <h2 class="pbmit-element-title">
+                                                        We deliver on time.
+                                                    </h2>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </article>
+                                    <article class="pbmit-miconheading-style-1 col-md-12">
+                                        <div class="pbmit-ihbox-style-1">
+                                            <div class="pbmit-ihbox-headingicon d-flex align-items-center">
+                                                <div class="pbmit-ihbox-icon">
+                                                    <div class="pbmit-ihbox-icon-wrapper pbmit-ihbox-icon-type-text">04.</div>
+                                                </div>
+                                                <div class="pbmit-ihbox-contents">
+                                                    <h2 class="pbmit-element-title">
+                                                        We allow for environmental conditions and employ advanced technology.
+                                                    </h2>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </article>
+                                    <article class="pbmit-miconheading-style-1 col-md-12">
+                                        <div class="pbmit-ihbox-style-1">
+                                            <div class="pbmit-ihbox-headingicon d-flex align-items-center">
+                                                <div class="pbmit-ihbox-icon">
+                                                    <div class="pbmit-ihbox-icon-wrapper pbmit-ihbox-icon-type-text">05.</div>
+                                                </div>
+                                                <div class="pbmit-ihbox-contents">
+                                                    <h2 class="pbmit-element-title">
+                                                        We will extensively consult with you and ensure the final design is exactly what you wanted.
+                                                    </h2>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </article>
 								</div>
-								<a class="pbmit-btn pbmit-btn-outline mt-3" href="about-us.html">
+								<a class="pbmit-btn pbmit-btn-outline mt-3" href="About-Us">
 									<span class="pbmit-button-content-wrapper">
 										<span class="pbmit-button-text">More About</span>
 									</span>
@@ -318,7 +368,7 @@
 										<h4 class="pbmit-subtitle">since 1986</h4>
 										<h2 class="pbmit-title">Recent case studies</h2>
 										<div class="pbmit-heading-desc">
-											Lorem ipsum dolor sit amet consectetur elit venenatis dolor sit amet.
+                                            Our portfolio includes design projects in home interior design, office design, restaurant design and hotel design at various locations throughout Bangladesh.
 										</div>
 									</div>
 									<div class="service-arrow swiper-btn-custom d-inline-flex flex-row-reverse"></div>
@@ -536,34 +586,46 @@
 						<ul class="nav nav-tabs" role="tablist">
 							<li class="nav-item" role="presentation">
 								<a class="nav-link active" data-bs-toggle="tab" href="#tab-2-1" aria-selected="true" role="tab"> 
-									<span>Design Consultancy</span>
+									<span>Interior Design</span>
 									<i class="pbmit-base-icon-pbmit-up-arrow"></i>
 								</a>	
 							</li>
 							<li class="nav-item" role="presentation"> 
 								<a class="nav-link" data-bs-toggle="tab" href="#tab-2-2" aria-selected="false" role="tab" tabindex="-1"> 
-									<span>Architecture Design</span>
+									<span>Exterior Design</span>
 									<i class="pbmit-base-icon-pbmit-up-arrow"></i>
 								</a>
 							</li>
 							<li class="nav-item" role="presentation">
 								<a class="nav-link" data-bs-toggle="tab" href="#tab-2-3" aria-selected="false" role="tab" tabindex="-1"> 
-									<span>Corporate Interior</span>
+									<span>Furniture Design</span>
 									<i class="pbmit-base-icon-pbmit-up-arrow"></i>
 								</a>
 							</li>
 							<li class="nav-item" role="presentation">
 								<a class="nav-link" data-bs-toggle="tab" href="#tab-2-4" aria-selected="false" role="tab" tabindex="-1"> 
-									<span>Commercial Interior </span>
+									<span>Office Design</span>
 									<i class="pbmit-base-icon-pbmit-up-arrow"></i>
 								</a>
 							</li>
 							<li class="nav-item" role="presentation">
 								<a class="nav-link" data-bs-toggle="tab" href="#tab-2-5" aria-selected="false" role="tab" tabindex="-1"> 
-									<span>Residential Interior</span>
+									<span>Restaurant Design</span>
 									<i class="pbmit-base-icon-pbmit-up-arrow"></i>
 								</a>
 							</li>
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link" data-bs-toggle="tab" href="#tab-2-5" aria-selected="false" role="tab" tabindex="-1">
+                                    <span>Duplex House Design</span>
+                                    <i class="pbmit-base-icon-pbmit-up-arrow"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link" data-bs-toggle="tab" href="#tab-2-5" aria-selected="false" role="tab" tabindex="-1">
+                                    <span>Project Analysis</span>
+                                    <i class="pbmit-base-icon-pbmit-up-arrow"></i>
+                                </a>
+                            </li>
 						</ul>
 						<div class="tab-content">
 							<div class="tab-pane show active" id="tab-2-1" role="tabpanel">
@@ -775,13 +837,13 @@
 							<div class="before-after-left-area pbmit-bg-color-blackish">
 								<div class="pbmit-heading-subheading animation-style4">
 									<h4 class="pbmit-subtitle">since 1986</h4>
-									<h2 class="pbmit-title">We design thoughtful, livable spaces.</h2>
+									<h2 class="pbmit-title">Get The Imagine Interiors Advantage!</h2>
 									<div class="pbmit-heading-desc">
 										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
 									</div>
 								</div>
 								<div class="row pbmit-fid-style-one">
-									<div class="col-md-6">
+									<div class="col-md-4">
 										<div class="pbminfotech-ele-fid-style-1">
 											<div class="pbmit-fld-contents d-flex align-items-center">
 												<div class="pbmit-circle-outer" data-digit="87" data-fill="#bb9a65" data-emptyfill="" data-before="" data-after="<span>%</span>" data-thickness="1" data-size="127">
@@ -794,12 +856,12 @@
 													</div>
 												</div>
 												<div class="pbmit-fid-sub">
-													<h3 class="pbmit-fid-title">Clients <br> Satisfactions</h3>
+													<h3 class="pbmit-fid-title">Detailed <br> Consultation</h3>
 												</div>
 											</div>
 										</div>
 									</div>
-									<div class="col-md-6">
+									<div class="col-md-4">
 										<div class="pbminfotech-ele-fid-style-1">
 											<div class="pbmit-fld-contents d-flex align-items-center">
 												<div class="pbmit-circle-outer" data-digit="89" data-fill="#bb9a65" data-emptyfill="" data-before="" data-after="<span>%</span>" data-thickness="1" data-size="127">
@@ -812,11 +874,29 @@
 													</div>
 												</div>
 												<div class="pbmit-fid-sub">
-													<h3 class="pbmit-fid-title">Work <br> Experiences</h3>
+													<h3 class="pbmit-fid-title">Premium <br> Materials</h3>
 												</div>
 											</div>
 										</div>
 									</div>
+                                    <div class="col-md-4">
+                                        <div class="pbminfotech-ele-fid-style-1">
+                                            <div class="pbmit-fld-contents d-flex align-items-center">
+                                                <div class="pbmit-circle-outer" data-digit="89" data-fill="#bb9a65" data-emptyfill="" data-before="" data-after="<span>%</span>" data-thickness="1" data-size="127">
+                                                    <div class="pbmit-circle">
+                                                        <div class="pbmit-fid-inner">
+                                                            <span class="pbmit-fid-before"></span>
+                                                            <span class="pbmit-number-rotate numinate" data-appear-animation="animateDigits" data-from="0" data-to="89" data-interval="5" data-before="" data-before-style="" data-after="" data-after-style="">89</span>
+                                                            <span class="pbmit-fid"><span>%</span></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="pbmit-fid-sub">
+                                                    <h3 class="pbmit-fid-title">On-time <br> Delivery</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
 								</div>
 							</div>
 						</div>
