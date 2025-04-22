@@ -7,6 +7,7 @@ RewriteRule ^Works$ works.php [L]
 RewriteRule ^Work-Detail$ works_details.php [L]
 RewriteRule ^Team$ team.php [L]
 RewriteRule ^About-Us$ about_us.php [L]
+RewriteRule ^Blog-Details$ blog_details.php [L]
 
 # Remove "index.php" from URLs
 RewriteCond %{REQUEST_FILENAME} !-f

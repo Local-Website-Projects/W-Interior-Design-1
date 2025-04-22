@@ -1,3 +1,8 @@
+<?php
+require_once('admin/config/dbConfig.php');
+$db_handle = new DBController();
+?>
+
 <!doctype html>
 <html class="no-js" lang="en">
 
@@ -400,11 +405,11 @@
 															<a href="#" rel="tag">Kitchen</a>
 														</div>
 														<h3 class="pbmit-service-title">
-															<a href="service-details.html">Transforming Rooms</a>
+															<a href="#">Transforming Rooms</a>
 														</h3>
 													</div>
 												</div>
-												<a class="pbmit-service-btn" href="service-details.html" title="Transforming Rooms">
+												<a class="pbmit-service-btn" href="#" title="Transforming Rooms">
 													<span class="pbmit-button-icon">
 														<i class="pbmit-base-icon-pbmit-up-arrow"></i>
 													</span>
@@ -431,11 +436,11 @@
 															<a href="#" rel="tag">Interior</a>
 														</div>
 														<h3 class="pbmit-service-title">
-															<a href="service-details.html">Weaving Dreams</a>
+															<a href="#">Weaving Dreams</a>
 														</h3>
 													</div>
 												</div>
-												<a class="pbmit-service-btn" href="service-details.html" title="Weaving Dreams">
+												<a class="pbmit-service-btn" href="#" title="Weaving Dreams">
 													<span class="pbmit-button-icon">
 														<i class="pbmit-base-icon-pbmit-up-arrow"></i>
 													</span>
@@ -462,11 +467,11 @@
 															<a href="#" rel="tag">Bedroom</a>
 														</div>
 														<h3 class="pbmit-service-title">
-															<a href="service-details.html">Interior Decorator</a>
+															<a href="#">Interior Decorator</a>
 														</h3>
 													</div>
 												</div>
-												<a class="pbmit-service-btn" href="service-details.html" title="Interior Decorator">
+												<a class="pbmit-service-btn" href="#" title="Interior Decorator">
 													<span class="pbmit-button-icon">
 														<i class="pbmit-base-icon-pbmit-up-arrow"></i>
 													</span>
@@ -493,11 +498,11 @@
 															<a href="#" rel="tag">Furniture</a>
 														</div>
 														<h3 class="pbmit-service-title">
-															<a href="service-details.html">Professional Interior</a>
+															<a href="#">Professional Interior</a>
 														</h3>
 													</div>
 												</div>
-												<a class="pbmit-service-btn" href="service-details.html" title="Professional Interior">
+												<a class="pbmit-service-btn" href="#" title="Professional Interior">
 													<span class="pbmit-button-icon">
 														<i class="pbmit-base-icon-pbmit-up-arrow"></i>
 													</span>
@@ -524,11 +529,11 @@
 															<a href="#" rel="tag">Kitchen</a>
 														</div>
 														<h3 class="pbmit-service-title">
-															<a href="service-details.html">Interior Work Plan</a>
+															<a href="#">Interior Work Plan</a>
 														</h3>
 													</div>
 												</div>
-												<a class="pbmit-service-btn" href="service-details.html" title="Interior Work Plan">
+												<a class="pbmit-service-btn" href="#" title="Interior Work Plan">
 													<span class="pbmit-button-icon">
 														<i class="pbmit-base-icon-pbmit-up-arrow"></i>
 													</span>
@@ -555,11 +560,11 @@
 															<a href="#" rel="tag">Bedroom</a>
 														</div>
 														<h3 class="pbmit-service-title">
-															<a href="service-details.html">2D/3D Layouts</a>
+															<a href="#">2D/3D Layouts</a>
 														</h3>
 													</div>
 												</div>
-												<a class="pbmit-service-btn" href="service-details.html" title="2D/3D Layouts">
+												<a class="pbmit-service-btn" href="#" title="2D/3D Layouts">
 													<span class="pbmit-button-icon">
 														<i class="pbmit-base-icon-pbmit-up-arrow"></i>
 													</span>
@@ -1158,7 +1163,7 @@
 						</div>
 						<div class="col-md-6">
 							<div class="blog-btn">
-								<a class="pbmit-btn pbmit-btn-outline" href="blog-grid-col-3.html">
+								<a class="pbmit-btn pbmit-btn-outline" href="#">
 									<span class="pbmit-button-content-wrapper">
 										<span class="pbmit-button-text">See all blogs</span>
 									</span>
@@ -1168,13 +1173,16 @@
 					</div>
 					<div class="row g-0 align-items-center">
 						<div class="col-md-12 col-xl-7">
+                            <?php
+                            $fetch_blog = $db_handle->runQuery("select * from blogs order by blog_id DESC limit 1");
+                            ?>
 							<article class="pbmit-ele-blog pbmit-blog-style-3">
 								<div class="post-item d-flex">
 									<div class="pbmit-featured-container">
-										<div class="pbmit-bg-image" style="background-image:url('images/homepage-1/blog/blog-04b.jpg')">
+										<div class="pbmit-bg-image" style="background-image:url('<?php echo $fetch_blog[0]['blog_image'];?>')">
 											<div class="pbmit-featured-img-wrapper">
 												<div class="pbmit-featured-wrapper">
-													<img src="images/homepage-1/blog/blog-04.jpg" class="img-fluid" alt="blog-01">
+													<img src="<?php echo $fetch_blog[0]['blog_image'];?>" class="img-fluid" alt="blog-01">
 												</div>
 											</div>
 										</div>
@@ -1184,7 +1192,7 @@
 											<div class="pbmit-date-admin-wraper d-flex align-items-center">
 												<div class="pbmit-meta-date pbmit-meta-line">
 													<span class="pbmit-post-date">
-														<i class="pbmit-base-icon-calendar-3"></i>May  09. 2024
+														<i class="pbmit-base-icon-calendar-3"></i><?php echo $fetch_blog[0]['publish_date'];?>
 													</span>
 												</div>
 												<div class="pbmit-meta-author pbmit-meta-line">
@@ -1195,13 +1203,13 @@
 												</div>
 											</div>
 											<h3 class="pbmit-post-title">
-												<a href="blog-single-details.html">How To Choose The Right  Furniture Of Your Home</a>
+												<a href="Blog-Details?blog_id=<?php echo $fetch_blog[0]['blog_id'];?>"><?php echo $fetch_blog[0]['blog_title'];?></a>
 											</h3>
 											<div class="pbminfotech-box-desc">
-												Modest, recently established interior design company that seeks to address a variety of topics, including…
+                                                <?php echo substr($fetch_blog[0]['blog_body'], 0, 80); ?> ...
 											</div>
 										</div>
-										<a class="pbmit-blog-btn" href="blog-single-details.html">
+										<a class="pbmit-blog-btn" href="#">
 											<span class="pbmit-button-icon">
 												<i class="pbmit-base-icon-pbmit-up-arrow"></i>
 											</span>
@@ -1213,102 +1221,46 @@
 						<div class="col-md-12 col-xl-5">
 							<div class="blog-three-right-col">
 								<div class="row">
-									<article class="pbmit-ele-blog pbmit-blog-style-2 col-md-12">
-										<div class="post-item">
-											<div class="pbminfotech-box-content">
-												<div class="pbminfotech-content-inner">
-													<div class="pbmit-featured-img-wrapper">
-														<div class="pbmit-featured-wrapper">
-															<img src="images/homepage-1/blog/blog-01.jpg" class="img-fluid" alt=""></div>
-													</div>
-													<div class="pbmit-meta-wraper">
-														<div class="pbmit-meta-date-wrapper pbmit-meta-line">
-															<div class="pbmit-meta-date">
+                                    <?php
+                                    $fetch_blogs = $db_handle->runQuery("SELECT * FROM blogs WHERE blog_id != (SELECT MAX(blog_id) FROM blogs) ORDER BY blog_id DESC limit 3");
+                                    $fetch_blogs_no = $db_handle->numROws("SELECT * FROM blogs WHERE blog_id != (SELECT MAX(blog_id) FROM blogs) ORDER BY blog_id DESC limit 3");
+                                    for($i=0; $i<$fetch_blogs_no; $i++){
+                                        ?>
+                                        <article class="pbmit-ele-blog pbmit-blog-style-2 col-md-12">
+                                            <div class="post-item">
+                                                <div class="pbminfotech-box-content">
+                                                    <div class="pbminfotech-content-inner">
+                                                        <div class="pbmit-featured-img-wrapper">
+                                                            <div class="pbmit-featured-wrapper">
+                                                                <img src="<?php echo $fetch_blogs[$i]['blog_image'];?>" class="img-fluid" alt=""></div>
+                                                        </div>
+                                                        <div class="pbmit-meta-wraper">
+                                                            <div class="pbmit-meta-date-wrapper pbmit-meta-line">
+                                                                <div class="pbmit-meta-date">
 																<span class="pbmit-post-date">
-																	<i class="pbmit-base-icon-calendar-3"></i>May  09. 2024
+																	<i class="pbmit-base-icon-calendar-3"></i><?php echo $fetch_blogs[$i]['publish_date'];?>
 																</span>
-															</div>
-														</div>
-														<div class="pbmit-meta-author pbmit-meta-line">
+                                                                </div>
+                                                            </div>
+                                                            <div class="pbmit-meta-author pbmit-meta-line">
 															<span class="pbmit-post-author">
 																<i class="pbmit-base-icon-user-3"></i>
 																<span>By</span>admin
 															</span>
-														</div>
-														<div class="pbmit-content-wrapper">
-															<h3 class="pbmit-post-title">
-																<a href="blog-single-details.html">Frequently Utilized Metal Welding System</a>
-															</h3>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-									</article>
-									<article class="pbmit-ele-blog pbmit-blog-style-2 col-md-12">
-										<div class="post-item">
-											<div class="pbminfotech-box-content">
-												<div class="pbminfotech-content-inner">
-													<div class="pbmit-featured-img-wrapper">
-														<div class="pbmit-featured-wrapper">
-															<img src="images/homepage-1/blog/blog-02.jpg" class="img-fluid" alt=""></div>
-													</div>
-													<div class="pbmit-meta-wraper">
-														<div class="pbmit-meta-date-wrapper pbmit-meta-line">
-															<div class="pbmit-meta-date">
-																<span class="pbmit-post-date">
-																	<i class="pbmit-base-icon-calendar-3"></i>May  09. 2024
-																</span>
-															</div>
-														</div>
-														<div class="pbmit-meta-author pbmit-meta-line">
-															<span class="pbmit-post-author">
-																<i class="pbmit-base-icon-user-3"></i>
-																<span>By</span>admin
-															</span>
-														</div>
-														<div class="pbmit-content-wrapper">
-															<h3 class="pbmit-post-title">
-																<a href="blog-single-details.html">How Does One Go About Buying Furniture?</a>
-															</h3>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-									</article>
-									<article class="pbmit-ele-blog pbmit-blog-style-2 col-md-12">
-										<div class="post-item">
-											<div class="pbminfotech-box-content">
-												<div class="pbminfotech-content-inner">
-													<div class="pbmit-featured-img-wrapper">
-														<div class="pbmit-featured-wrapper">
-															<img src="images/homepage-1/blog/blog-03.jpg" class="img-fluid" alt=""></div>
-													</div>
-													<div class="pbmit-meta-wraper">
-														<div class="pbmit-meta-date-wrapper pbmit-meta-line">
-															<div class="pbmit-meta-date">
-																<span class="pbmit-post-date">
-																	<i class="pbmit-base-icon-calendar-3"></i>May  09. 2024
-																</span>
-															</div>
-														</div>
-														<div class="pbmit-meta-author pbmit-meta-line">
-															<span class="pbmit-post-author">
-																<i class="pbmit-base-icon-user-3"></i>
-																<span>By</span>admin
-															</span>
-														</div>
-														<div class="pbmit-content-wrapper">
-															<h3 class="pbmit-post-title">
-																<a href="blog-single-details.html">Four Ways for Creating Extra Space in Small Homes</a>
-															</h3>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-									</article>
+                                                            </div>
+                                                            <div class="pbmit-content-wrapper">
+                                                                <h3 class="pbmit-post-title">
+                                                                    <a href="Blog-Details?blog_id=<?php echo $fetch_blogs[$i]['blog_id'];?>"><?php echo $fetch_blogs[$i]['blog_title'];?></a>
+                                                                </h3>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </article>
+                                        <?php
+                                    }
+                                    ?>
 								</div>
 							</div>
 						</div>
